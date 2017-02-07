@@ -1,1 +1,1 @@
-import './lib/react-render.jsx!';
+import './lib/render.jsx!';

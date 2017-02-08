@@ -17,6 +17,9 @@ a:hover {
   color: #fff;
   border: 0;
 }
+a:visited {
+  border-bottom: 1px solid #99C27C;
+}
 h1, h2, h3, h4, h5 {
   margin: 0;
   color: #D09A6A;
@@ -71,6 +74,9 @@ nav a.category:not(:last-child) {
 }
 .blue {
   color: #65B0ED;
+}
+.green {
+  color: #99C27C;
 }
 #app {
   padding: 20px;

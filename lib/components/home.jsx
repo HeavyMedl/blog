@@ -1,3 +1,5 @@
+import { sites } from '../../app.config.js';
+
 import React from 'react';
 import Title from './title.jsx!';
 import Navigation from './navigation.jsx!';
@@ -8,7 +10,7 @@ export default class Home extends React.Component {
     return (
       <div className="row">
         <div className="col-xs-12 col-md-3">
-          <Title title={"kurtlocker.net"} subtitle={"A collection of writings and projects by Kurt Medley."}/>
+          <Title title={sites.main.title} subtitle={sites.main.subtitle}/>
           <Navigation/>
         </div>
         <Article/>

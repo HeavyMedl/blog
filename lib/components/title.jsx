@@ -2,9 +2,9 @@ import React from 'react';
 export default class Title extends React.Component {
   render() {
     return (
-      <div>
-        <div className="logo">{this.props.title}</div>
-        <div>{this.props.subtitle}</div>
+      <div className="title">
+        <h1>{this.props.title}</h1>
+        <h2>{this.props.subtitle}</h2>
       </div>
     )
   }

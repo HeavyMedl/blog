@@ -1,3 +1,9 @@
+::selection {
+  color: white;
+}
+::-moz-selection {
+  color: white;
+}
 body {
   margin: 0 auto;
   max-width: 1440px;
@@ -14,7 +20,7 @@ a {
   border-bottom: 1px solid #65B0ED;
 }
 a:hover {
-  color: #fff;
+  color: white;
   border: 0;
 }
 a:visited {
@@ -36,7 +42,7 @@ h2 {
   color: #929191;
 }
 h1 {
-  color: #fff;
+  color: white;
   font-weight: 400;
   font-size: 36px;
 }
@@ -54,7 +60,7 @@ nav a.category {
   display: block;
   font-family: 'Merriweather', serif;
   font-weight: 300;
-  color: #fff;
+  color: white;
   padding: 5px 0;
   padding-left: 15px;
   border-bottom: 0;

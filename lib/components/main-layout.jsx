@@ -9,11 +9,17 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="row">
-        <div className="col-xs-12 col-md-3">
+        <aside className="col-xs-12 col-md-3">
           <Title title={sites.main.title} subtitle={sites.main.subtitle}/>
           <Navigation/>
-        </div>
-        <Article/>
+        </aside>
+        <main className="col-xs-12 col-md-6">
+          <Article/>
+        </main>
+        <aside className="col-xs-12 col-md-3">
+        </aside>
+        <footer className="col-xs-12">
+        </footer>
       </div>
     )
   }

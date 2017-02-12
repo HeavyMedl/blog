@@ -3,9 +3,8 @@ import { sites } from '../../app.config.js';
 import React from 'react';
 import Title from './title.jsx!';
 import Navigation from './navigation.jsx!';
-import Article from './article.jsx!';
 
-export default class Home extends React.Component {
+export default class MainLayout extends React.Component {
   render() {
     return (
       <div className="row">
@@ -14,7 +13,7 @@ export default class Home extends React.Component {
           <Navigation/>
         </aside>
         <main className="col-xs-12 col-md-6">
-          <Article/>
+          {this.props.children}
         </main>
         <aside className="col-xs-12 col-md-3">
         </aside>

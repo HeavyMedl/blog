@@ -1,8 +1,8 @@
 import ReactDom from 'react-dom';
 import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';
-import MainLayout from './components/main-layout.jsx!';
-import Article from './components/article.jsx!';
+import MainLayout from './components/presentation/main-layout.jsx!';
+import Article from './components/presentation/article.jsx!';
 
 ReactDom.render((
   <Router history={browserHistory}>

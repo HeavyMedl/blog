@@ -1,4 +1,4 @@
-import { sites } from '../../app.config.js';
+import { sites } from '../../../app.config.js';
 
 import React from 'react';
 import Title from './title.jsx!';

@@ -1,8 +1,8 @@
 import { sites } from '../../../app.config.js';
 
 import React from 'react';
-import Title from './title.jsx!';
-import Navigation from './navigation.jsx!';
+import Title from './Title.jsx!';
+import Navigation from './Navigation.jsx!';
 
 export default class MainLayout extends React.Component {
   render() {

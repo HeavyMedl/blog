@@ -1,5 +1,4 @@
-import { sites } from '../../../app.config.js';
-
+import { sites } from '../../../config.json!';
 import React from 'react';
 import Title from './Title.jsx!';
 import Navigation from './Navigation.jsx!';

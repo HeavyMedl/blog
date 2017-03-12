@@ -15,18 +15,18 @@
       "day": "11",
       "month": "MAR",
       "year": "2017",
-      "path": "Blog-Inception",
-      "title": "Blog Inception",
-      "post": "1.11-MAR-2017.Blog-Inception.md"
+      "title": "Building a serverless blog with React.js, Markdown, and JSPM.",
+      "path": "Building-a-serverless-blog-with-React.js%2C-Markdown%2C-and-JSPM.",
+      "post": "1.11-MAR-2017.md"
     },
     {
       "number": "2",
       "day": "12",
       "month": "MAR",
       "year": "2017",
-      "path": "Another-Post",
       "title": "Another Post",
-      "post": "2.12-MAR-2017.Another-Post.md"
+      "path": "Another-Post",
+      "post": "2.12-MAR-2017.md"
     }
   ]
 }

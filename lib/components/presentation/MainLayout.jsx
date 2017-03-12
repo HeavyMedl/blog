@@ -1,4 +1,4 @@
-import { sites } from '../../../config.json!';
+import {sites} from '../../../config.json!';
 import React from 'react';
 import Title from './Title.jsx!';
 import Navigation from './Navigation.jsx!';
@@ -11,13 +11,10 @@ export default class MainLayout extends React.Component {
           <Title title={sites.main.title} subtitle={sites.main.subtitle}/>
           <Navigation/>
         </aside>
-        <main className="col-xs-12 col-md-6">
+        <main className="col-xs-12 col-md-9">
           {this.props.children}
         </main>
-        <aside className="col-xs-12 col-md-3">
-        </aside>
-        <footer className="col-xs-12">
-        </footer>
+        <footer className="col-xs-12"></footer>
       </div>
     )
   }

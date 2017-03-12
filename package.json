@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "list": "node lib/processors/posts-list.js"
+  },
   "jspm": {
     "dependencies": {
       "json": "github:systemjs/plugin-json@^0.3.0",

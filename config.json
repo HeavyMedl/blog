@@ -13,12 +13,14 @@
     {
       "number": "1",
       "date": "03-11-2017",
+      "path": "Blog-Inception",
       "title": "Blog Inception",
       "post": "1.03-11-2017.Blog-Inception.md"
     },
     {
       "number": "2",
       "date": "03-12-2017",
+      "path": "Another-Post",
       "title": "Another Post",
       "post": "2.03-12-2017.Another-Post.md"
     }

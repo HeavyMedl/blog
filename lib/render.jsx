@@ -8,10 +8,11 @@ import PostList from './components/presentation/PostList.jsx!';
 ReactDom.render((
   <Router history={browserHistory}>
     <Route component={MainLayout}>
-      <Route path="/" component={Post} />
+      <Route path="/" component={PostList} />
       <Route path="projects" component={Post} />
       <Route path="reading" component={Post} />
       <Route path="blog" component={PostList} />
+      <Route path="blog/:path" component={Post} />
       <Route path="misc" component={Post} />
     </Route>
   </Router>

@@ -24,9 +24,6 @@ a:hover {
   color: white;
   border: 0;
 }
-a:visited {
-  border-bottom: 1px solid #99C27C;
-}
 h1, h2, h3, h4, h5 {
   margin: 0;
   color: #D09A6A;
@@ -97,6 +94,22 @@ nav ul li:not(:last-child) {
 }
 .green {
   color: #99C27C;
+}
+.white {
+  color: #ffffff;
+}
+.post-list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.post-list h4 {
+  line-height: 24px;
+}
+.post-list a {
+  border: 0;
+}
+.post-list span.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: x-small;
 }
 #app {
   padding: 20px;
